@@ -281,7 +281,7 @@ span {
 
     81%,
     100% {
-        content: "Cs Student."
+        content: "Computer Science Student."
     }
 
 }
@@ -759,13 +759,14 @@ span {
     color: white;
 }
 
-@media(max-width:800px){
+@media(max-width:800px) {
     #work-a {
-        padding: 5rem 0; }
+        padding: 5rem 0;
+    }
 }
 
-@media(max-width:600px){
-    #work-a .items{
+@media(max-width:600px) {
+    #work-a .items {
         grid-template-columns: repeat(1, 1fr);
     }
 
