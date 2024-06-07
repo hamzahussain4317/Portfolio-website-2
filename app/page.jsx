@@ -47,8 +47,8 @@ export default function Home() {
           <Link href="#" className="active opt">Home</Link>
           <Link href="#education" className="opt">Education</Link>
           <Link href="#about-b" className="opt">Skills</Link>
-          <Link href="#" className="opt">Projects</Link>
-          <Link href="#" className="opt">Contact</Link>
+          <Link href="#work-a" className="opt">Projects</Link>
+          <Link href="#contact" className="opt">Contact</Link>
         </nav>
       </header>
       <section className="home" id="home">
@@ -122,66 +122,218 @@ export default function Home() {
       </section>
 
       <section id="about-b">
-        
-        <h2>Technical skills</h2>
+
+        <h2 className="heading">Technical <span>skills</span></h2>
         {/* <div className="bottom-line"></div> */}
         <div className="nameandlogo">
-        <h4>HTML AND CSS</h4>  
-        <i class="fa-brands fa-html5" id="slogo"></i>
+          <h4>HTML AND CSS</h4>
+          <i className="fa-brands fa-html5" id="slogo"></i>
         </div>
         <div className="progress">
           <div style={{ '--final-width': '80%' }}></div>
         </div>
         <div className="nameandlogo">
-        <h4>JAVASCRIPT</h4>
-        <i class="fa-brands fa-js" id="slogo"></i>
+          <h4>JAVASCRIPT</h4>
+          <i className="fa-brands fa-js" id="slogo"></i>
         </div>
         <div className="progress">
           <div style={{ '--final-width': '80%' }}></div>
         </div>
         <div className="nameandlogo">
-        <h4>NODE</h4>
-        <i class="fa-brands fa-node" id="slogo"></i>
+          <h4>NODE</h4>
+          <i className="fa-brands fa-node" id="slogo"></i>
         </div>
         <div className="progress">
           <div style={{ '--final-width': '70%' }}></div>
         </div>
         <div className="nameandlogo">
-        <h4>REACT</h4>
-        <i class="fa-brands fa-react" id="slogo"></i>
+          <h4>REACT</h4>
+          <i className="fa-brands fa-react" id="slogo"></i>
         </div>
         <div className="progress">
           <div style={{ '--final-width': '90%' }}></div>
         </div>
         <div className="nameandlogo">
-        <h4>NEXT</h4>
+          <h4>NEXT</h4>
         </div>
         <div className="progress">
           <div style={{ '--final-width': '90%' }}></div>
         </div>
         <div className="nameandlogo">
-        <h4>TYPESCRIPT</h4>
+          <h4>TYPESCRIPT</h4>
         </div>
         <div className="progress">
-        <div style={{ '--final-width': '60%' }}></div>
+          <div style={{ '--final-width': '60%' }}></div>
         </div>
-          
-        
+
+
         <div className="nameandlogo">
-        <h4>C/C++</h4>
-        <i class="fa-solid fa-c"  id="slogo"></i>
+          <h4>C/C++</h4>
+          <i className="fa-solid fa-c" id="slogo"></i>
         </div>
         <div className="progress">
           <div style={{ '--final-width': '90%' }}></div>
         </div>
         <div className="nameandlogo">
-        <h4>PYTHON</h4>
-        <i class="fa-brands fa-python" id="slogo"></i>
+          <h4>PYTHON</h4>
+          <i className="fa-brands fa-python" id="slogo"></i>
         </div>
         <div className="progress">
           <div style={{ '--final-width': '30%' }}></div>
         </div>
       </section>
+
+
+      <section id="work-a">
+        <div className="container">
+          <h2 className="project-heading heading">My <span>work</span></h2>
+          <div className="items">
+            <div className="item">
+              <div className="item-image">
+                {/* <img src="./img/items/item1.png" alt=""> */}
+                <Image className="project-Image" src={'/item1.png'} alt={''} priority={false} width={500} height={500} quality={100} layout="fixed"></Image>
+              </div>
+              <div className="item-text">
+                <div className="item-text-wrap">
+                  <p className="item-text-category">Design</p>
+                  <h2 className="item-text-title">Great Gradiants</h2>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="item-image">
+                {/* <img src="./img/items/item2.png" alt=""> */}
+                <Image className="project-Image" src={'/item2.png'} alt={''} priority={false} width={500} height={500} quality={100}></Image>
+              </div>
+              <div className="item-text">
+                <div className="item-text-wrap">
+                  <p className="item-text-category">UI/UX</p>
+                  <h2 className="item-text-title">World Experience</h2>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="item-image">
+                {/* <img src="./img/items/item3.png" alt=""> */}
+                <Image className="project-Image" src={'/item3.png'} alt={''} priority={false} width={500} height={500} quality={100}></Image>
+              </div>
+              <div className="item-text">
+                <div className="item-text-wrap">
+                  <p className="item-text-category">Photography & design</p>
+                  <h2 className="item-text-title">vanishing</h2>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="item-image">
+                {/* <img src="./img/items/item4.png" alt=""> */}
+                <Image className="project-Image" src={'/item4.png'} alt={''} priority={false} width={500} height={500} quality={100}></Image>
+              </div>
+              <div className="item-text">
+                <div className="item-text-wrap">
+                  <p className="item-text-category">Design</p>
+                  <h2 className="item-text-title">Gap inc</h2>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="item-image">
+                {/* <img src="./img/items/item5.png" alt=""> */}
+                <Image className="project-Image" src={'/item5.png'} alt={''} priority={false} width={500} height={500} quality={100}></Image>
+              </div>
+              <div className="item-text">
+                <div className="item-text-wrap">
+                  <p className="item-text-category">Mobile ui design</p>
+                  <h2 className="item-text-title">fact the experience</h2>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="item-image">
+                {/* <img src="./img/items/item6.png" alt=""> */}
+                <Image className="project-Image" src={'/item6.png'} alt={''} priority={false} width={500} height={500} quality={100}></Image>
+              </div>
+              <div className="item-text">
+                <div className="item-text-wrap">
+                  <p className="item-text-category">Design Concept</p>
+                  <h2 className="item-text-title">Bazier Curve</h2>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="item-image">
+                {/* <img src="./img/items/item7.png" alt=""> */}
+                <Image className="project-Image" src={'/item7.png'} alt={''} priority={false} width={500} height={500} quality={100}></Image>
+              </div>
+              <div className="item-text">
+                <div className="item-text-wrap">
+                  <p className="item-text-category">Photography</p>
+                  <h2 className="item-text-title">dock ponder</h2>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="item-image">
+                {/* <img src="./img/items/item8.png" alt=""> */}
+                <Image className="project-Image" src={'/item8.png'} alt={''} priority={false} width={500} height={500} quality={100}></Image>
+              </div>
+              <div className="item-text">
+                <div className="item-text-wrap">
+                  <p className="item-text-category">web application</p>
+                  <h2 className="item-text-title">resturant app</h2>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="item-image">
+                {/* <img src="./img/items/item9.png" alt=""> */}
+                <Image className="project-Image" src={'/item9.png'} alt={''} priority={false} width={500} height={500} quality={100}></Image>
+              </div>
+              <div className="item-text">
+                <div className="item-text-wrap">
+                  <p className="item-text-category">social network concept</p>
+                  <h2 className="item-text-title">friendfeed</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" className="contact">
+        <h2 className="heading">Contact <span>Me</span></h2>
+        <form action="">
+          <div className="input-group">
+            <div className="input-box">
+              <input type="text" placeholder="Full Name" />
+              <input type="email" placeholder="Email" />
+            </div>
+            <div className="input-box">
+              <input type="number" placeholder="Phone Number" />
+              <input type="text" placeholder="Subject" />
+            </div>
+          </div>
+          <div className="input-group-2">
+            <textarea name="" id="" cols="60" row="60" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" className="btn" />
+          </div>
+        </form>
+      </section>
+      <footer className="footer">
+        <div className="social">
+          <a href="#"><i className="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i className="fa-brands fa-github"></i></a>
+          <a href="#"><i className="fa-brands fa-instagram"></i></a>
+          <a href="#"><i className="fa-brands fa-facebook"></i></a>
+        </div>
+        <ul className="list">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#about-b">skills</a></li>
+          <li><a href="#work-a">projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p className="copyright">Hamza Hussain | All Rights Reserved</p>
+      </footer>
     </>
 
   );
