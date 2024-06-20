@@ -9,13 +9,13 @@ export default function Work({ workList }) {
                     {workList.length !== 0 && workList.map((item, index) => (
                         <div className="item" key={index}>
                             <div className="item-image">
-                                <Image className="project-Image" src={`/work1.PNG`} alt={''} priority={false} width={500} height={500} quality={100} layout="fixed"></Image>
+                                <Image className="project-Image" src={item.image} alt={''} priority={false} width={500} height={500} quality={100} layout="fixed"></Image>
                             </div>
                             <div className="item-text">
                                 <div className="item-text-wrap">
                                     <p className="item-text-category">{item.category}</p>
                                     <h2 className="item-text-title">{item.title}</h2>
-                                    <Link  className="web-link"href="https://gleeful-nougat-e811ea.netlify.app/">Click Here To visit</Link>
+                                    <Link className="web-link" href={item.link}><i class="fa-solid fa-link"></i></Link>
                                 </div>
                             </div>
                         </div>

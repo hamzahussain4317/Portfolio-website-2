@@ -35,7 +35,7 @@ export default function Home() {
                     <Image className="images" src={'/hamza-pic-2.jpg'} alt={''} priority={false} width="300" height="400"></Image>
                 </div>
             </section>
-           
+
         </>
     )
 }
