@@ -10,7 +10,6 @@ export default function Techskills() {
         };
         const callback = (entries) => {
             entries.forEach(entry => {
-                console.log(entry);
                 if (entry.isIntersecting) {
                     entry.target.classList.add('show');
                 } else {
@@ -31,7 +30,7 @@ export default function Techskills() {
         };
     }, []);
     return (
-        <section id="about-b">
+        <section id="skills">
 
             <h2 className="heading">Technical <span>Skills</span></h2>
             <div className="nameandlogo">

@@ -1,6 +1,13 @@
+'use client'
+import { useEffect } from "react"
+import ParticlesBackground from "./ParticlesBackground"
 export default function Contact() {
+    useEffect(() => {
+        console.log("Hello World from Contact")
+    }, [])
     return (
         <section id="contact" className="contact">
+            {/* <ParticlesBackground />  */}
             <h2 className="heading">Contact <span>Me</span></h2>
             <form action="">
                 <div className="input-group">

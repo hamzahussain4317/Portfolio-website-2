@@ -428,19 +428,19 @@ span {
     width: 50px;
 }
 
-#about-b {
+#skills {
     padding: 100px 50px;
     background-color: var(--second-bg-color);
     color: #fff;
 }
 
-#about-b h2 {
+#skills h2 {
     text-align: center;
     font-size: 8rem;
     font-weight: lighter;
 }
 
-#about-b .bottom-line {
+#skills .bottom-line {
     display: block;
     margin: 2rem auto 2rem auto;
     width: 40rem;
@@ -448,12 +448,12 @@ span {
     background-color: var(--main-color);
 }
 
-#about-b h4 {
+#skills h4 {
     margin: 1rem 2rem 0.2rem 2rem;
     font-size: 2rem;
 }
 
-#about-b .progress {
+#skills .progress {
     height: 20px;
     background-color: #f4f4f4;
     margin: 1rem 2rem;
@@ -474,7 +474,7 @@ span {
     color: var(--main-color);
 }
 
-#about-b .progress div {
+#skills .progress div {
     border-radius: 5px;
     height: 100%;
     background-color: var(--main-color);
@@ -498,14 +498,14 @@ span {
 }
 
 
-#work-a {
+#projects {
     padding: 100px 50px;
     text-align: center;
     /* padding: 2rem 0; */
     background-color: var(--second-bg-color);
 }
 
-#work-a .bottom-line {
+#projects .bottom-line {
     display: block;
     margin: 1rem auto 1rem auto;
     width: 7rem;
@@ -519,7 +519,7 @@ span {
     margin-bottom: 3rem;
 }
 
-#work-a .items {
+#projects .items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
@@ -591,7 +591,7 @@ span {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     line-height: 0;
 }
 
@@ -820,6 +820,7 @@ span {
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
         display: none;
+
     }
 
     .navbar.active {
@@ -862,13 +863,13 @@ span {
 }
 
 @media(max-width:800px) {
-    #work-a {
+    #projects {
         padding: 5rem 0;
     }
 }
 
 @media(max-width:600px) {
-    #work-a .items {
+    #projects .items {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -877,8 +878,8 @@ span {
 @media(max-width:430px) {
 
     #education,
-    #about-b,
-    #work-a,
+    #skills,
+    #projects,
     #contact,
     .footer {
         min-width: 200vw;
@@ -893,4 +894,10 @@ span {
         min-width: 300px;
         min-height: 300px;
     }
+}
+
+.web-link {
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 5rem;
 }

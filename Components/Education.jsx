@@ -1,4 +1,5 @@
 export default function Education({ educationList }) {
+
     return (
         <section id="education" className="education">
 
