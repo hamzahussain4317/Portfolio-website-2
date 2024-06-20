@@ -19,12 +19,12 @@ export default function App() {
   const workList = [{ image: `/work1.PNG`, link: 'https://gleeful-nougat-e811ea.netlify.app/', category: "HTML & CSS", title: "NewsGrid Web" },
   { image: `/work2.PNG`, link: 'https://github.com/hamzahussain4317/Porfolio_website', category: "HTML & CSS", title: "Portfolio Web" },
   { image: `/work3.PNG`, link: 'https://github.com/hamzahussain4317/EdgeLedger', category: "HTML & CSS", title: "EdgeLegder Web" },
-  { category: "Design", title: "Gap inc" },
-  { category: "Mobile ui design", title: "fact the experience" },
-  { category: "Design Concept", title: "Bazier Curve" },
-  { category: "Photography", title: "dock ponder" },
-  { category: "web application", title: "resturant app" },
-  { category: "social network concept", title: "friendfeed" }]
+  { image: `/work4.PNG`, link: 'https://github.com/hamzahussain4317/Todo_list', category: "JAVASCRIPT", title: "TodoList" },
+  { image: `/work5.PNG`, link: 'https://github.com/hamzahussain4317/Todo_list', category: "JAVASCRIPT", title: "Bankist App" },
+  { image: `/work5.PNG`, link: 'https://github.com/hamzahussain4317/Todo_list', category: "Design Concept", title: "Bazier Curve" },
+  { image: `/work5.PNG`, link: 'https://github.com/hamzahussain4317/Todo_list', category: "Photography", title: "dock ponder" },
+  { image: `/work5.PNG`, link: 'https://github.com/hamzahussain4317/Todo_list', category: "web application", title: "resturant app" },
+  { image: `/work5.PNG`, link: 'https://github.com/hamzahussain4317/Todo_list', category: "social network concept", title: "friendfeed" }]
 
   return (
     <>
