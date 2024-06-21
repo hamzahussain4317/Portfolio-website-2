@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="social">
         <a href="https://www.linkedin.com/in/hamza-hussain-b88172274"><i className="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/hamzahussain4317?tab=repositories"><i className="fa-brands fa-github"></i></a>
-        <a href="#"><i className="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100048878618340"><i className="fa-brands fa-instagram"></i></a>
         <a href="https://www.facebook.com/profile.php?id=100048878618340"><i className="fa-brands fa-facebook"></i></a>
       </div>
       <ul className="list">
