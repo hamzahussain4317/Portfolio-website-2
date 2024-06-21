@@ -15,7 +15,7 @@ export default function Work({ workList }) {
                                 <div className="item-text-wrap">
                                     <p className="item-text-category">{item.category}</p>
                                     <h2 className="item-text-title">{item.title}</h2>
-                                    <Link className="web-link" href={item.link}><i class="fa-solid fa-link"></i></Link>
+                                    <Link className="web-link" href={item.link}><i class="fa-solid fa-link fa-beat fa-4x"></i></Link>
                                 </div>
                             </div>
                         </div>

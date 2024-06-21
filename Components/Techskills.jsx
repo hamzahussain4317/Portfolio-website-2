@@ -31,11 +31,11 @@ export default function Techskills() {
     }, []);
     return (
         <section id="skills">
-
             <h2 className="heading">Technical <span>Skills</span></h2>
             <div className="nameandlogo">
                 <h4>HTML AND CSS</h4>
                 <i className="fa-brands fa-html5" id="slogo"></i>
+                <i className="fa-brands fa-css3-alt" id="slogo"></i>
             </div>
             <div className="progress">
                 <div style={{ '--final-width': '80%' }}></div>
@@ -63,12 +63,15 @@ export default function Techskills() {
             </div>
             <div className="nameandlogo">
                 <h4>NEXT</h4>
+                <i className="fa-solid fa-n" id="slogo" ></i>
             </div>
             <div className="progress">
                 <div style={{ '--final-width': '90%' }}></div>
             </div>
             <div className="nameandlogo">
                 <h4>TYPESCRIPT</h4>
+                <i className="fa-solid fa-t" id="slogo"></i>
+                <i className="fa-solid fa-s" id="slogo"></i>
             </div>
             <div className="progress">
                 <div style={{ '--final-width': '60%' }}></div>

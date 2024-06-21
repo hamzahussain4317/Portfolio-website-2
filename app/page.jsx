@@ -1,3 +1,4 @@
+'use client'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import NavBar from '../Components/NavBar'
 import Home from '../Components/Home'
@@ -6,6 +7,7 @@ import Techskills from '../Components/Techskills'
 import Work from '../Components/Work'
 import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
+// import Design from './components/Design'
 
 
 
@@ -28,6 +30,7 @@ export default function App() {
 
   return (
     <>
+      {/* <Design /> */}
       <NavBar />
       <Home />
       <Education educationList={educationList} />

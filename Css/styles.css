@@ -81,6 +81,7 @@ body {
 section {
     min-height: 100vh;
     padding: 10rem 12% 10rem;
+    display: block;
 }
 
 .home {
@@ -89,6 +90,8 @@ section {
     justify-content: center;
     gap: 15rem;
     max-height: 100vh;
+    position: relative;
+    z-index: 1;
 }
 
 .home-content {
@@ -251,6 +254,13 @@ span {
     animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
 
+#another {
+    color: red;
+    display: block;
+    border: 2px solid white;
+    background: red;
+}
+
 @keyframes cursor {
     to {
         border-left: 2px solid var(--main-color);
@@ -314,6 +324,11 @@ span {
     }
 }
 
+#skills {
+    position: relative;
+    z-index: 1;
+}
+
 .heading {
     font-size: 8rem;
     text-align: center;
@@ -323,11 +338,13 @@ span {
 
 .education {
     padding: 100px 50px;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .education h2 {
     margin-bottom: 5rem;
+    position: relative;
+    z-index: 1;
 }
 
 .timeline-items {
@@ -430,8 +447,9 @@ span {
 
 #skills {
     padding: 100px 50px;
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
     color: #fff;
+
 }
 
 #skills h2 {
@@ -517,6 +535,8 @@ span {
     font-size: 8rem;
     font-weight: lighter;
     margin-bottom: 3rem;
+    position: relative;
+    z-index: 1;
 }
 
 #projects .items {
@@ -652,7 +672,11 @@ span {
 }
 
 .contact {
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
+    position: relative;
+    z-index: 1;
+    margin-top: -70rem;
+
 }
 
 .contact h2 {
@@ -675,8 +699,9 @@ span {
     flex-wrap: wrap;
 }
 
-.contact form .input-box input,
-.contact form textarea {
+/* .contact form .input-box input,
+.contact form textarea*/
+.fields {
     width: 100%;
     padding: 2.5rem;
     font-size: 1.8rem;
@@ -688,8 +713,27 @@ span {
     resize: none;
 }
 
+.field-while-error {
+    background: var(--second-bg-color);
+    border-radius: 2rem;
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border: 2px solid red;
+    margin: 1.5rem 0;
+    resize: none;
+
+}
+
 .contact form .btn {
     margin-top: 2rem;
+}
+
+.submitbutton {
+    color: white;
+    /* background-color: white; */
 }
 
 .footer {
@@ -759,6 +803,13 @@ span {
     color: white;
 }
 
+.errors {
+    color: red;
+    font-size: 1.5rem;
+
+
+}
+
 @media(max-width:1285px) {
     html {
         font-size: 55%;
@@ -785,6 +836,10 @@ span {
         text-align: left;
     }
 
+    .item-text-category {
+        font-size: 2rem;
+    }
+
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
         padding-left: 37px;
@@ -796,6 +851,10 @@ span {
 
     .contact form {
         flex-direction: column;
+    }
+
+    .contact {
+        margin-top: 4rem;
     }
 
     .footer {
@@ -825,6 +884,19 @@ span {
 
     .navbar.active {
         display: block;
+    }
+
+    .item-text-category {
+        font-size: 5rem;
+    }
+
+    .item-text-title {
+        font-size: 8rem;
+    }
+
+    .web-link {
+        margin-top: 2rem;
+        size: 50px;
     }
 
     .navbar a {
