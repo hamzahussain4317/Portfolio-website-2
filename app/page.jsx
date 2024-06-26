@@ -29,8 +29,8 @@ export default function App() {
   { image: `/work9.PNG`, link: 'https://helpful-parfait-b4ca8a.netlify.app/', category: "HTML & CSS", title: "Psychology" }]
 
   return (
-    <>
-      {/* <Design /> */}
+
+    <div className="wrapper" id="wrapper">
       <NavBar />
       <Home />
       <Education educationList={educationList} />
@@ -38,7 +38,8 @@ export default function App() {
       <Work workList={workList} />
       <Contact />
       <Footer />
-    </>
+    </div>
+
 
   );
 }
